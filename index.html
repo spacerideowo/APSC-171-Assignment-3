@@ -336,7 +336,7 @@
         <p>[Explain why your group chose this topic.]</p>
         <p>[State why aerial refueling is important in real-world use.]</p>
 
-        <h3>Project Video</h3>
+        <h3>Opening Video (1 min 4 sec)</h3>
         <video controls style="width: 100%; max-width: 900px; border-radius: 12px; margin-top: 12px;">
           <source src="demo.mp4" type="video/mp4">
           Your browser does not support the video tag.
@@ -348,9 +348,102 @@
       <div class="card">
         <div class="tag">Part Two</div>
         <h2>Core Physics Concepts</h2>
-        <p>[Introduce the key physics ideas used in this topic.]</p>
-        <p>[Explain relative velocity and how it applies here.]</p>
-        <p>[Connect the scenario to course content and formulas.]</p>
+
+        <h3>Connection to Course Concepts</h3>
+        <p>
+          Aerial refueling can be analyzed using concepts from dynamics, especially
+          <strong>relative motion</strong> and <strong>Newton’s second law</strong>.
+          In this process, the receiver aircraft must move in a controlled way relative
+          to the tanker aircraft in order to maintain a stable refueling position.
+        </p>
+
+        <p>
+          One of the most important ideas is <strong>relative motion</strong>. Research on
+          aerial refueling systems shows that the relative motion between the receiver
+          and the tanker is a key part of the problem. In course terms, this connects
+          directly to <strong>L09 Relative Motion</strong>, where motion is described using
+          relative position, relative velocity, and relative acceleration.
+        </p>
+
+        <div class="math-box">
+          <p>r<sub>rel</sub>, v<sub>rel</sub>, a<sub>rel</sub></p>
+        </div>
+
+        <p>
+          To refuel successfully, the relative position between the two aircraft must remain
+          approximately constant. This means the receiver and tanker must travel at nearly
+          the same speed and in the same direction. A useful relationship is:
+        </p>
+
+        <div class="math-box">
+          <p>&Delta;x = v<sub>rel</sub> &middot; t</p>
+        </div>
+
+        <p>
+          According to this equation, even a small difference in velocity can cause the
+          separation distance to increase over time. Ideally, the relative velocity should
+          be close to <strong>0 m/s</strong> so that the receiver does not drift away from
+          the tanker.
+        </p>
+
+        <p>
+          Another important concept is <strong>Newton’s second law</strong>, which connects
+          forces to motion:
+        </p>
+
+        <div class="math-box">
+          <p>&Sigma;F = ma</p>
+        </div>
+
+        <p>
+          In real flight conditions, the aircraft are affected by external forces such as
+          wind, turbulence, airflow, and drag. These forces produce changes in acceleration,
+          which then affect velocity and position. As a result, the relative motion between
+          the two aircraft is constantly changing and must be corrected continuously during refueling.
+        </p>
+
+        <p>
+          Real aerial refueling is even more difficult because the hose-and-drogue system
+          must remain stable. If the receiver moves too fast or the airflow changes too much,
+          the hose can lose proper tension and become slack, which increases the risk of
+          instability and makes refueling harder.
+        </p>
+
+        <h3>Why This Matters in Our Simulation</h3>
+        <p>
+          Our simulation focuses mainly on relative velocity and gap closing, which helps
+          demonstrate the core physics idea in a simple way. However, real aerial refueling
+          is more complex because it also involves external disturbances, drag effects, and
+          stability of the hose system.
+        </p>
+
+        <h3>References</h3>
+        <ul>
+          <li>
+            Dogan, A., Lewis, T. A., &amp; Blake, W. (2008).
+            <em>Flight data analysis and simulation of wind effects during aerial refueling</em>.
+            <em>Journal of Aircraft, 45</em>(6), 2036–2048.
+            <a href="https://doi.org/10.2514/1.36797" target="_blank">https://doi.org/10.2514/1.36797</a>
+          </li>
+          <li>
+            Dogan, A., Kim, E., &amp; Blake, W. (2007).
+            <em>Control and simulation of relative motion for aerial refueling in racetrack maneuvers</em>.
+            <em>Journal of Guidance, Control, and Dynamics, 30</em>(5), 1551–1557.
+            <a href="https://doi.org/10.2514/1.29487" target="_blank">https://doi.org/10.2514/1.29487</a>
+          </li>
+          <li>
+            Ren, J., &amp; Quan, Q. (2024).
+            <em>Progress in modeling and control of probe-and-drogue autonomous aerial refueling</em>.
+            <em>Chinese Journal of Aeronautics, 37</em>(5), 6–26.
+            <a href="https://doi.org/10.1016/j.cja.2023.11.011" target="_blank">https://doi.org/10.1016/j.cja.2023.11.011</a>
+          </li>
+          <li>
+            Zhu, Z. H., &amp; Meguid, S. A. (2007).
+            <em>Modeling and simulation of aerial refueling by finite element method</em>.
+            <em>International Journal of Solids and Structures, 44</em>(24), 8057–8073.
+            <a href="https://doi.org/10.1016/j.ijsolstr.2007.05.026" target="_blank">https://doi.org/10.1016/j.ijsolstr.2007.05.026</a>
+          </li>
+        </ul>
       </div>
     </section>
 
@@ -460,6 +553,7 @@
             <li>Roy Van — website design, interactive simulation, and calculations</li>
             <li>Ruben Botes — introduction and background research</li>
             <li>Connie Cameron Hinojosa & Chunbo Cao — physics concepts and course connections</li>
+            <li>Chunbo Cao — editing opening video</li>
             <li>Katrina Anthony — real-world challenges and conclusion</li>
           </ul>
         </div>
